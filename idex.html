@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel reservation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<script src="index.js"></script>
+<body>
+  
+    <h1>HOTEL RESERVATION</h1>
+    <form action="" name="myform" onsubmit="validate()" >
+    <label for="name" id="name">NAME</label>
+    <input type="text" name="name" id="name" required>
+    <br><br>
+    <p>ROOM_TYPE</p>
+    <div>
+    <input type="radio" name="ROOM_TYPE" id="deluxe" value="DELUXE">
+    <label for="deluxe">DELUXE</label>
+    <input type="radio" name="ROOM_TYPE" id="standard" value="STANDARD">
+    <label for="standard">STANDARD</label><br>
+    <input type="radio" name="ROOM_TYPE" id="single" value="SINGLE">
+    <label for="single">SINGLE</label>
+    <input type="radio" name="ROOM_TYPE" id="double" value="DOUBLE">
+    <label for="double">DOUBLE</label>
+    </div>
+    <label for="email">EMAIL:</label>
+    <input type="text" id="email" name="email" required>
+    <br><br>
+    <label for="phone">PHONE:</label>
+    <input type="text" id="phone" name="phone" required>
+    <br><br>
+    <label for="people">NUMBER OF PEOPLE:</label>
+    <input type="text" id="people" name="people" size="3px" >
+    <br><br>
+    <div id="btn">
+    <input type="submit" name="myform" value="Reserve" >
+    <input type="reset" name="Reset">
+    </div>
+    </form>
+</body>
+</html>

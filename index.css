@@ -1,0 +1,16 @@
+*{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    text-align: justify;
+    margin: 5px;
+}
+p{
+    margin-right: 300px;
+    text-align: inherit;
+}
+div{
+    margin-left: 70px;
+}
+
